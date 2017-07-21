@@ -1,5 +1,7 @@
 # frozen-string-literal: true
 
+require 'sequel/deprecated'
+
 module Sequel
   # The default exception class for exceptions raised by Sequel.
   # All exception classes defined by Sequel are descendants of this class.
